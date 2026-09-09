@@ -1,258 +1,58 @@
-# Anish Kumar — Personal Portfolio
+# 🌐 Personal Portfolio Website
 
-A modern, responsive personal portfolio website for **Anish Kumar**, built with semantic HTML, custom CSS, and vanilla JavaScript. The portfolio presents personal information, selected projects, experience/education, services, skills, testimonials, and contact/social links in a dark, animated interface.
+A modern, responsive personal portfolio website designed to showcase my
+skills, projects, experience, and contact information as a frontend developer.
+
+## 🚀 Live Demo
+
+🔗 [View Live Website](https://anish-portfolio-five-woad.vercel.app/)
+
+## 📸 Screenshots
+
+### 🖥️ Desktop View
+
+![Portfolio Desktop Screenshot](./screenshots/home.png)
+
+### 📱 Mobile View
+
+![Portfolio Mobile Screenshot](./screenshots/phone.png)
 
 ## ✨ Features
 
-- Fully responsive portfolio layout for desktop, tablet, and mobile
-- Modern dark UI with a purple glow/gradient visual style
-- Fixed navigation with active section highlighting while scrolling
-- Animated hero/profession text
-- Custom animated cursor
-- Scroll-reveal entrance animations
-- Projects carousel powered by Swiper.js
-- Experience / Education tab switching
-- Expandable service cards / accordion interaction
-- Auto-scrolling testimonial cards
-- Copy-to-clipboard email button
-- Dynamic footer year
-- Smooth scrolling navigation
-- Resume/CV link
-- Social and contact links
-- Reusable CSS variables for colors, typography, and sizing
+- Fully responsive design
+- Modern and clean UI
+- Hero section with introduction
+- About Me section
+- Skills and technologies section
+- Projects showcase
+- Contact section
+- Smooth navigation
+- Mobile-friendly layout
+- Interactive UI elements
+- Optimized for different screen sizes
 
 ## 🛠️ Technologies Used
 
-### Frontend
-- **HTML5** — semantic page structure
-- **CSS3** — responsive styling, gradients, animations, layouts, and custom UI
-- **JavaScript (ES6+)** — interactions and DOM manipulation
+- HTML5
+- CSS3
+- JavaScript
+- Responsive Web Design
+- Font Awesome / Icons
+- Google Fonts
 
-### Libraries / CDN
-- **Anime.js** — animated split text in the hero section
-- **Swiper.js** — projects carousel
-- **ScrollReveal.js** — scroll-based reveal animations
-- **Remix Icon** — interface and social icons
-- **Google Fonts — Montserrat** — primary typography
-
-> Note: The project is a static website and does not require a backend or database.
-
-## 📁 Project Structure
+## 📂 Project Structure
 
 ```text
 portfolio/
+│
 ├── index.html
-├── css/
-│   ├── style.css
-│   └── swiper-bundle.min.css
-├── js/
-│   ├── main.js
-│   ├── scrollreveal.min.js
-│   └── swiper-bundle.min.js
-└── img/
-    ├── A.png
-    ├── Ak.png
-    ├── Anish.png
-    ├── anishpandit1.png
-    ├── projects1.png
-    ├── projects2.png
-    ├── projects3.png
-    ├── projects4.png
-    ├── projects5.png
-    ├── testimo.png
-    ├── testimo2.png
-    ├── testimo3.png
-    ├── testimo4.png
-    ├── testimo5.png
-    ├── testimonials1.png
-    └── Anish Kumar Pandit CV.pdf
-```
-
-## 🧩 Website Sections
-
-### 🏠 Home
-The hero section introduces Anish Kumar as a **Creative Developer & Designer**. It includes animated profession text, social links, profile imagery, and a resume button.
-
-### 👨‍💻 About
-A short personal introduction describing an interest in web development, design, creativity, experimentation, and continuous learning.
-
-### 💼 Projects
-The portfolio showcases five project concepts:
-
-1. **Barbershop Website**
-2. **Interface Design for Ice Cream Shop**
-3. **SEO for Coffee Website**
-4. **Web Design for Restaurant**
-5. **Fast Food Website**
-
-The projects are displayed using a Swiper carousel.
-
-### 📚 Experience & Education
-A tab-based section separates professional experience from education. The interface allows users to switch between the two categories without leaving the page.
-
-### 🧰 Services & Skills
-The services section highlights:
-
-- Website development
-- HTML, CSS, and JavaScript
-- React and TypeScript
-- Node.js and Next.js
-- GitHub
-- UI/UX and web design
-- Figma
-- Adobe XD
-- Photoshop
-- Illustrator
-- Sketch
-- After Effects
-- 3D modeling
-
-### 📩 Contact
-The contact section provides:
-
-- Email address
-- Location
-- LinkedIn
-- GitHub
-- WhatsApp
-- Messenger
-- Telegram
-- Instagram
-
-The email button uses the browser Clipboard API to copy the displayed email address.
-
-## ⚙️ JavaScript Functionality
-
-The main JavaScript file handles the interactive behavior of the website:
-
-- **Anime.js split-text animation** for hero professions
-- **Swiper initialization** for the projects carousel
-- **Experience/Education tabs**
-- **Service accordion**
-- **Testimonial card duplication**
-- **Email copy-to-clipboard**
-- **Automatic copyright year**
-- **Active navigation link on scroll**
-- **Custom mouse cursor**
-- **ScrollReveal animations**
-
-## 🚀 Getting Started
-
-Because this is a static HTML/CSS/JavaScript project, no package installation is required.
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/anish-web2001/your-repository-name.git
-```
-
-### 2. Open the project
-
-```bash
-cd your-repository-name
-```
-
-### 3. Run locally
-
-The simplest option is to open `index.html` directly in your browser.
-
-For a better development experience, use **VS Code + Live Server**:
-
-1. Open the project folder in VS Code.
-2. Install the **Live Server** extension.
-3. Right-click `index.html`.
-4. Select **Open with Live Server**.
-
-## 🎨 Customization
-
-The main design variables are defined in `css/style.css`.
-
-For example:
-
-```css
-:root {
-    --hue: 255;
-    --first-color: hsl(var(--hue), 60%, 64%);
-    --first-color-alt: hsl(var(--hue), 80%, 56%);
-    --body-color: hsl(240, 100%, 2%);
-    --container-color: hsl(240, 8%, 6%);
-}
-```
-
-Changing `--hue` lets you quickly change the primary accent color across the website.
-
-You can also customize:
-
-- Profile images in `img/`
-- Project images
-- Resume/CV
-- Social links
-- Email address
-- Project titles and descriptions
-- Experience and education information
-- Services and skills
-- Testimonials
-- Typography and spacing
-
-## 📱 Responsive Design
-
-The website uses CSS media queries and flexible layouts to adapt the interface to different screen sizes, including:
-
-- 📱 Mobile
-- 📲 Tablet
-- 💻 Laptop
-- 🖥️ Desktop
-
-## 🔗 External Resources
-
-The project uses the following external resources:
-
-- Anime.js via jsDelivr CDN
-- Remix Icon via cdnjs
-- Google Fonts
-- Local Swiper.js and ScrollReveal.js files
-
-## 🌐 Deployment
-
-This project can be deployed easily using static hosting services such as:
-
-- GitHub Pages
-- Netlify
-- Vercel
-- Cloudflare Pages
-
-No server-side configuration is required.
-
-## 📌 Portfolio Goals
-
-This project is designed to demonstrate practical frontend skills, including:
-
-- Responsive web design
-- Semantic HTML
-- CSS architecture
-- Modern UI design
-- JavaScript DOM manipulation
-- Third-party library integration
-- Animation implementation
-- Interactive components
-- Accessibility-conscious structure
-- Portfolio presentation
-
-## 👤 Author
-
-**Anish Kumar**
-
-- GitHub: https://github.com/anish-web2001
-- LinkedIn: https://www.linkedin.com/in/anish-kumar8594/
-- Instagram: https://instagram.com/anishkr6397
-- Location: Delhi, India
-
-## 📄 License
-
-This project is intended for personal portfolio and learning purposes.
-
-If you reuse or modify the project, please replace the personal information, images, resume, and social links with your own content.
-
----
-
-⭐ If you like this portfolio, consider giving the repository a star!
+├── style.css
+├── main.js
+├── assets/
+│   ├── images/
+│   └── ...
+├── screenshots/
+│   ├── desktop.png
+│   └── mobile.png
+├── README.md
+└── .gitignore
